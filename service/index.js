@@ -7,7 +7,7 @@ var get = require('../tools/promis').get;
 module.exports = {
 
     getData:function(){
-        var url ='http://10.132.20.14:8083/mockjsdata/62/getData';
+        var url ='';
         return get(url);
     }
 };
